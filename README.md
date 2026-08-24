@@ -18,7 +18,9 @@ The goal of this project was to identify which customer segments are churning th
 3. **Payment Frictions:** Customers utilizing electronic checks churn at a visibly higher rate than those utilizing automated payment methods like credit cards or bank transfers.
 
 ## 📂 Repository Contents
-* `Analysis project2.ipynb`: The Python script detailing the data cleaning, feature engineering, and BigQuery upload process.
+* `cleaned_telco_Churn.csv`: The raw dataset used for this analysis.
+* `Analysis project2.ipynb`: The Python script detailing the data cleaning, feature engineering, and BigQuery API upload process.
+* `data_modeling.sql`: The Google BigQuery SQL queries used to create optimized summary views for the dashboard.
 * `SaaS_Churn_Dashboard.pdf`: A static export of the multi-page Looker Studio dashboard.
 
 ## 🚀 How to Replicate
